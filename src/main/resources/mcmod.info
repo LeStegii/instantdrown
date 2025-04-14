@@ -1,0 +1,16 @@
+[
+{
+  "modid": "instantdrown",
+  "name": "Instant Drown",
+  "description": "Simple mod for configuring the drowning time of players.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/LeStegii/instantdrown",
+  "updateUrl": "",
+  "authorList": ["LeStegii"],
+  "credits": "Mark719 for the original idea.",
+  "logoFile": "assets/instantdrown/logo/logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
