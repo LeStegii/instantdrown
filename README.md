@@ -16,10 +16,11 @@ gameplay {
     # Minecraft's default is 2 damage (= 1 heart).
     # -1 = instant death
     # 0 = no damage
-    I:damage=-1
+    # Min: -1
+    # Max: 2147483647
+    I:damage=0
 }
 ```
 
 ## Notes and Credit
 - Inspired by [Drowning Overhaul for 1.6.4-1.7.10](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/2174575-drowning-overhaul-water-got-a-whole-lot-more)
-- The workspace for this version is based on [anatawa12's FG fork](https://github.com/anatawa12/ForgeGradle-1.2).
