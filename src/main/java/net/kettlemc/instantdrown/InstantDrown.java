@@ -10,10 +10,11 @@ import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 
 
-@Mod(modid = InstantDrown.MODID, version = InstantDrown.VERSION, acceptedMinecraftVersions = "[1.7.10]")
+@Mod(modid = InstantDrown.MODID, version = InstantDrown.VERSION, name = InstantDrown.NAME, acceptedMinecraftVersions = "[1.7.10]")
 public class InstantDrown {
     public static final String MODID = "instantdrown";
-    public static final String VERSION = "1.2";
+    public static final String NAME = "Instant Drown";
+    public static final String VERSION = "1.2.0";
 
 
     @EventHandler
