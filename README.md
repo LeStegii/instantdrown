@@ -11,15 +11,13 @@ They also cannot be simply used in CurseForge modpacks, since they're uploaded e
 The mod has a config file that allows you to configure the following options:
 
 ```toml
-gameplay {
-    # The amount of damage to apply per drowning tick.
-    # Minecraft's default is 2 damage (= 1 heart).
-    # -1 = instant death
-    # 0 = no damage
-    # Min: -1
-    # Max: 2147483647
-    I:damage=0
-}
+[gameplay]
+#The amount of damage to apply per drowning tick.
+#Minecraft's default is 2 damage (= 1 heart).
+#-1 = instant death
+#0 = no damage
+#Range: > -1
+damage = -1
 ```
 
 ## Notes and Credit
